@@ -1,11 +1,9 @@
 # Proyecto-Final-InformaticaII-
     --Proyecto final Informatica II--
 
-Participantes: Balestra Gianfranco
-               Gómez Martín
-               Ponce Leandro
+Participantes: Balestra Gianfranco, Gómez Martín y Ponce Leandro
                
-Breve descripción del proyecto: 
+Breve descripción del proyecto:
   El proyecto consiste en solucionar una problemática del cuartel de Bomberos Voluntarios de San Martín "El Libertador" que es la siguiente:
   
   Cuando un bombero va al cuartel a realizar su guardia, tiene que anotar en un registro su horario de ingreso y de egreso incluyendo la fecha. Si bien, no es un proceso para nada complicado, 
