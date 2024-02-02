@@ -99,14 +99,8 @@ void draw() {
     break;
 
   case 3: //Mostrar personal de guardia
-    fill(150, 10, 20);
-    noStroke();
-    rect(50, 80, 500, 450);
-    fill(0);
-    textSize(30);
-    text("Mostrar personal de guardia", width/2-170, 130);
-    rectBlan();
-    volver();
+    println("Se arbió el archivo excel perfectamente.");
+    estado=0;
     break;
   }
 }
@@ -125,7 +119,11 @@ void volver() {
     fill(0);
     text("Volver", 425, 442);
     if (mousePressed) {
-      estado=0;
+      estado=0; //Variable de cambios de estados
+      textUsuario = ""; //Variable para almacenar la entrada por teclado del usuario    
+      estado=0; //Variable para los estados del sistema
+      ingreseText=0; //Variable para el estado de ingreso de texto
+
       delay(100);
     }
   }
@@ -139,6 +137,7 @@ void rectBlan() {  //posible mejora con estados tmb
   rect(150, 300, 300, 40);
   fill(150);
   text("Ejemplo: Fernandez Javier", 185, 325);
+  
   if (mouseX>150 && mouseX<450 && mouseY>300 && mouseY<340) {
     fill(185);
     rect(150, 300, 300, 40);
@@ -156,6 +155,7 @@ void rectBlan() {  //posible mejora con estados tmb
     if (key == ENTER) {
       ingreseText=0;
       println(textUsuario);
+      textUsuario="";
     }
   }
 }
