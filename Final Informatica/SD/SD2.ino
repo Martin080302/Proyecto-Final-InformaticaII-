@@ -2,9 +2,6 @@
 #include <SD.h>
 
 const int SSpin = 8;
-const int mosipin = 5;
-const int misopin = 4;
-const int sckpin = 7;
 
 File archivo;
 
